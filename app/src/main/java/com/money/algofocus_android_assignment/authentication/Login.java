@@ -200,6 +200,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
 
                 }
+                break;
                 //Social login button action//
             case R.id.google_login:
                 GoogleLogin();
@@ -210,6 +211,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 Intent intent = new Intent(Login.this, SignUp.class);
                 startActivity(intent);
                 finish();
+                break;
 
             case R.id.loginButton:
 
