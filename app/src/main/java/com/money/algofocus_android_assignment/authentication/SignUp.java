@@ -241,6 +241,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Toast.makeText(SignUp.this, "Sign Up successful" , Toast.LENGTH_SHORT).show();
                         progressBar.setVisibility(View.GONE);
+                         startActivity(new Intent(SignUp.this, Login.class));
                         // If sign in fails, display a message to the user. If sign in succeeds
                         // the auth state listener will be notified and logic to handle the
                         // signed in user can be handled in the listener.
