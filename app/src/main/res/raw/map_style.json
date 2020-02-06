@@ -1,0 +1,16 @@
+[
+  {
+    "featureType": "poi.business",
+    "elementType": "all",
+    "stylers": [
+      { "visibility": "off" }
+    ]
+  },
+  {
+    "featureType": "poi.attraction",
+    "stylers": [
+      { "visibility": "on" }
+    ]
+  }
+]
+

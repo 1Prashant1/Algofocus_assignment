@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "669801186300",
+    "firebase_url": "https://assignment-a405e.firebaseio.com",
+    "project_id": "assignment-a405e",
+    "storage_bucket": "assignment-a405e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669801186300:android:48be17ff1d6c15a5de2879",
+        "android_client_info": {
+          "package_name": "com.money.algofocus_android_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669801186300-2hhhta7cp9duiki9afsec6ei50nkh69j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.money.algofocus_android_assignment",
+            "certificate_hash": "a4a9dc634690d73c48fba68c8868d1108f96e001"
+          }
+        },
+        {
+          "client_id": "669801186300-71vmhe5nk40acltaski9i6qiu17qmavs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.money.algofocus_android_assignment",
+            "certificate_hash": "e4a3f631b80a1a2ae93c355b3e8acb8a7a64b5fb"
+          }
+        },
+        {
+          "client_id": "669801186300-b4onv1m0bcp6d23d87tgd6udisk4vkfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgP3jQ5M59WOlaMffawR9suPGqh6ArRuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669801186300-b4onv1m0bcp6d23d87tgd6udisk4vkfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

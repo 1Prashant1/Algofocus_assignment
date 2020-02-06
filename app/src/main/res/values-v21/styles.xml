@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">-->
+    <!--        <item name="android:textSize">12sp</item>-->
+    <!--        <item name="android:textColor">@color/white</item>-->
+    <!--        <item name="android:textAllCaps">false</item>-->
+    <!--        <item name="android:fontFamily">@font/poppins_regular</item>-->
+    <!--        <item name="android:singleLine">true</item>-->
+
+    <!--    </style>-->
+
+    <style name="MyCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorControlNormal">#42BF00</item>
+        <item name="colorControlActivated">#42BF00</item>
+        <item name="colorControlHighlight">#42BF00</item>
+        <!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>-->
+        <item name="android:buttonTint" tools:ignore="NewApi">@color/light_green</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/dialogButtonText</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint" tools:ignore="NewApi">@color/dardgry_background</item>
+        <item name="android:progressTint" tools:ignore="NewApi">@color/orange_peel</item>
+        <item name="android:colorControlActivated" tools:ignore="NewApi">@color/orange_peel</item>
+        <item name="android:thumb">@null</item>
+
+    </style>
+
+    <style name="greenstatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/light_green</item>
+    </style>
+
+    <style name="whitestatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:ignore="NewApi">@color/white</item>
+    </style>
+
+    <style name="datepickerColor" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/light_green</item>
+        <item name="android:datePickerMode" tools:ignore="NewApi">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NumberPickerStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyRaidoButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorAccent">#42BF00</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+    </style>
+
+
+
+
+</resources>
