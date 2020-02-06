@@ -363,7 +363,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         } else {
                             Intent intent = new Intent(Login.this, PermisionNeed.class);
                             startActivity(intent);
-                            finish();
+                             
                         }
                     }
                 });
