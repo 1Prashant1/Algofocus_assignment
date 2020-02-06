@@ -146,6 +146,7 @@ public class UserDetail extends AppCompatActivity implements OnMapReadyCallback,
                                 @Override
                                 public void onClick(DialogInterface paramDialogInterface, int paramInt) {
                                     startActivity(new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS));
+                                     startActivity(new Intent(UserDetail.this, Login.class));
                                     signout();
 
                                 }
